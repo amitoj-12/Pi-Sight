@@ -45,7 +45,7 @@ python3 pi_send_frame.py
 # File Structure
 PiSight/  
 |--pi_send_frame.py  (Pi client script)  
-|--detect_server.py  (Flask server script on PC)
+|--detect_server.py  (Flask server script on PC)  
 |--requirements.txt  (Dependencies)  
 |--README.md         (This file)  
 |--LICENSE           (MIT License)  
