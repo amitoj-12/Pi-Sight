@@ -12,7 +12,7 @@ Step by Step Flow:
 # Componenets used
 -"Raspberry Pi Zero 2W"–Captures and sends image.  
 -"Android Phone"–Used as an IP camera.  
--"YOLOv8 / Grounding DINO + CLIP"–Object detection model on PC.  
+-"YOLOv8"–Object detection model on PC.  
 -"Bluetooth Speaker"–For audio output via Pi.  
 -"Python"–Used for both Pi and PC scripts.  
 -"Flask"–Lightweight server on PC.  
