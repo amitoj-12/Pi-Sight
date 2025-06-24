@@ -26,7 +26,7 @@ Phone setup
 3. Note the stream URL (http://192.168.0.103:8080).
 
 PC Setup (Object Detection Server)  
-   bash
+bash
 git clone https://github.com/your_username/PiSight.git  
 cd PiSight  
 pip install -r requirements.txt    
@@ -44,7 +44,7 @@ python3 pi_send_frame.py
 
 # File Structure
 PiSight/  
-|--pi_send_frame.py  (Pi client script)
+|--pi_send_frame.py  (Pi client script)  
 |--detect_server.py  (Flask server script on PC)
 |--requirements.txt  (Dependencies)  
 |--README.md         (This file)  
