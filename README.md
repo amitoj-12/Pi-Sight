@@ -9,7 +9,7 @@ Step by Step Flow:
 4. Server performs object detection and sends the detected object names back to Rasberry pi.
 5. Pi reads out the result using 'espeak' through a Bluetooth speaker.
 
-# Componenets used
+# Components used
 -"Raspberry Pi Zero 2W"–Captures and sends image.  
 -"Android Phone"–Used as an IP camera.  
 -"YOLOv8"–Object detection model on PC.  
