@@ -2,7 +2,7 @@
 PiSight is a Raspberry pi 0 2w powered smart glasses project designed to assist the visually impaired by identifying surrounding objects in real time. It captures images using a mobile phone's IP webcam, processes them through an server with the help of YOLOv8 , and speaks out the names of detected objects using a Bluetooth speaker via the Raspberry pi 0 2w .
 
 # How it works
-Step by Step Flow:
+~Step by Step Flow:
 1. Phone streams camera using IP Webcam app.
 2. Raspberry Pi captures frames from the stream.
 3. Pi sends each frame to a YOLOv8 server running on a PC.
@@ -20,18 +20,18 @@ Step by Step Flow:
 
 # Installation
 
-Phone setup  
+~Phone setup  
 1. Install the "IP Webcam" app from Play Store.  
 2. Start the camera server.  
 3. Note the stream URL (http://192.168.0.103:8080).
 
-PC Setup (Object Detection Server)  
+~PC Setup (Object Detection Server)  
 bash
 git clone https://github.com/your_username/PiSight.git  
 cd PiSight  
 pip install -r requirements.txt    
 
--To start the server:  
+~To start the server:  
 python detect_server.py  
 
 #  Raspberry Pi Setup
@@ -39,7 +39,7 @@ sudo apt update
 sudo apt install python3-pip espeak -y
 pip3 install opencv-python-headless requests
 
--Run the Pi script
+~Run the Pi script
 python3 pi_send_frame.py
 
 # File Structure
