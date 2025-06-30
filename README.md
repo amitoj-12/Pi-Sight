@@ -1,12 +1,12 @@
 # Pi-Sight-Smart device for Object Detection
-PiSight is a Raspberry pi 0 2w powered smart glasses project designed to assist the visually impaired by identifying surrounding objects in real time. It captures images using a mobile phone's IP webcam, processes them through an server with the help of YOLOv8 , and speaks out the names of detected objects using a Bluetooth speaker via the Raspberry pi 0 2w .
+PiSight is a Raspberry pi 0 2w powered smart glasses project designed to assist the visually impaired by identifying surrounding objects in real time. It captures images using a mobile phone's IP webcam, processes them through a server with the help of YOLOv8 , and speaks out the names of detected objects using a Bluetooth speaker via the Raspberry pi 0 2w .
 
 # How it works
 ~Step by Step Flow:
 1. Phone streams camera using IP Webcam app.
 2. Raspberry Pi captures frames from the stream.
 3. Pi sends each frame to a YOLOv8 server running on a PC.
-4. Server performs object detection and sends the detected object names back to Rasberry pi.
+4. Server performs object detection and sends the detected object names back to Raspberry pi.
 5. Pi reads out the result using 'espeak' through a Bluetooth speaker.
 
 # Components used
