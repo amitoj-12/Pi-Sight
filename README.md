@@ -20,27 +20,49 @@ PiSight is a Raspberry pi 0 2w powered smart glasses project designed to assist 
 
 # Installation
 
-~Phone setup  
-1. Install the "IP Webcam" app from Play Store.  
-2. Start the camera server.  
-3. Note the stream URL (http://192.168.0.103:8080).
+# 📷 PiSight Installation Guide
 
-~PC Setup (Object Detection Server)  
-bash
-git clone https://github.com/your_username/PiSight.git  
-cd PiSight  
-pip install -r requirements.txt    
+## 📱 Phone Setup
 
-~To start the server:  
-python detect_server.py  
+1. Install the **IP Webcam** app from the Google Play Store.
+2. Start the **camera server** in the app.
+3. Note the **stream URL**, e.g.:
 
-#  Raspberry Pi Setup
-sudo apt update
-sudo apt install python3-pip espeak -y
-pip3 install opencv-python-headless requests
+   ```
+   http://192.168.0.103:8080
+   ```
 
-~Run the Pi script
-python3 pi_send_frame.py
+---
+
+## 💻 PC Setup (Object Detection Server)
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your_username/PiSight.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd PiSight
+   ```
+
+3. Install the required Python packages:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+## ▶️ Start the Server
+
+Run the object detection server with:
+
+```bash
+python detect_server.py
+```
 
 # File Structure
 PiSight/  
