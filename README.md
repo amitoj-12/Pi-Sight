@@ -20,7 +20,7 @@ PiSight is a Raspberry pi 0 2w powered smart glasses project designed to assist 
 
 # Installation
 
-# 📷 PiSight Installation Guide
+#  PiSight Installation Guide
 
 ## 📱 Phone Setup
 
